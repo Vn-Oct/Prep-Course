@@ -106,10 +106,11 @@ function operadoresLogicos(num1, num2, num3) {
   //Si num3 es más grande que num1 y num2, aumentar su valor en 1 y retornar el nuevo valor.*
   //0 no es ni positivo ni negativo. Si alguno de los argumentos es 0, retornar "Error".*
   //Si no se cumplen ninguna de las condiciones anteriores, retornar false. 
-if (num1 < 0 || num2 < 0 || num3 <0 ) {return 'Hay negativos'}
-  else if(num1 === 0 || num2 === 0 || num3 === 0 ) {return 'Error'}
-  else if (num1 > num2 && num1 > num3 && num1 > 0) {return 'Número 1 es mayor y positivo'}
-  else if (num3 > num1 && num3 > num2 ) {return num3++}
+  if(num1 === 0 || num2 === 0 || num3 === 0 ) {return 'Error'}
+  else if (num1 < 0 || num2 < 0 || num3 < 0 ) {return 'Hay negativos'}
+  else if (num1 > num2 && num1 > num3 ) {return 'Número 1 es mayor y positivo'}
+  else if (num3 > num1 && num3 > num2 ) {return (num3+1)
+  }
   else return false;
 }
 
@@ -120,10 +121,12 @@ function esPrimo(numero) {
   // Pista: un número primo solo es divisible por sí mismo y por 1
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
-for ( let i = 2 ; i < numero ; i++)
+if (numero === 0 || numero === 1) {return false}
+  for ( let i = 2 ; i < numero ; i++)
 {
-if ((numero % i)>0 || numero === 0 || numero === 1) {return false }
-else return true};
+if (numero % i === 0) {return false}}
+
+return true;
 }
 
 function esVerdadero(valor){
@@ -140,14 +143,16 @@ function tablaDelSeis(){
   //Escribe tu código aquí   
 
   let tabla6 = [];
-  for (let i=0 ; i <= 60 ; i++){
-  tabla6.push (6*i)};
+  for (let i=0; i <= 10 ; i++) 
+  {    const resultado = 6 * i ;
+    tabla6.push (resultado) ;}
+    return tabla6;
 }
 
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
-  if (Math.floor(numero)===numero && numero.length===3) {return true}
+  if (numero>99 && numero<1000) {return true}
   else return false;
   
 }
@@ -156,10 +161,14 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
-let contador=0
-let nroAumentado=numero
-do {nroAumentado=nroAumentado+5;}
-while (contador <= 8);
+  var a = numero;
+  var i = 0;
+  do {
+    i += 1;
+    a += 5;
+  }
+  while(i < 8);
+  return a;
 }
 
 
