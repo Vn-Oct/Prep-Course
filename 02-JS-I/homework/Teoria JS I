@@ -1,0 +1,34 @@
+Variable. 
+Termino predefinido por la plataforma o definido por el usuario, para determinar una serie de caracteres, que  cuentan con una referencia y/o detalle
+Var Saludo = 'Hola'
+Valor = '$'
+
+String. 
+Serie de caracteres, que son resultados de una veriable, los mismos se encuentran ubicados entre comillas. Estos pueden ser tomados como formato texto. 
+Ejemplo
+'Hola ' + 'soy Valeria' 
+"Hola soy Valeria"
+
+'1' + '1'
+"11"
+
+'1' + 1
+"11"
+
+1 + 1
+'2'
+
+Funciones. 
+Las funciones son compuestos por argumentos y variables.
+Las Variables, se encontraran afectadas si es que estan definidas dentro de la funcion o fuera. En caso de que dichas variables se encuentren definidas dentro de la función. No afectaran a las definiciones determinadas fuera de estas, lo que habilita a contar con una serie de Caracteres determinados, con mas de un Valor definido. Siempre se toma en cuenta primeramente el valor definido dentro de la funcion, en caso que este no cuente con una definicion, se buscara por fuera de la función- 
+Los argumentos son los valores a utilizar para resolver la funcion, estos seran colocados dentro de parentisis.
+La palabra clave "return", es utilizada para devolver el resultado de la funcion, este no tiene un valor definido.
+
+If.
+Es el control de flujo dentro de una función, el mismo determinara donde comenzar la lectura del codigo. Este se vera afectado por el resultado, ya que en caso de ser "true" se detra el comando. De lo contrario devolvera "false"
+
+Booleanos.
+Los valores booleanos dependen de una función de comparación, para veriicar su veraciadad
+
+1<1; //false
+1<=1; //true

@@ -1,0 +1,18 @@
+For
+Palabra clave reservada para un bucle. El mismo se encuentra compuesto por una igualación, verificación, y aumento de 1 el valor buscado)
+Dicho comando se encuentra separado por punto y coma. 
+
+for (let i=0; i<# ; i++){ ;}
+Luego de la confección del for, dentro de las llaves, se colocara la función a realizar, esta ejecutará el codigo hasta que el valor de I deje de ser true en la validación con el nro (#) indicado.
+Si bien la validación puede ser modificada, no es necesario que sea i<#, debe contar con un fin, de lo contrario, se puede volver un bucle infinito del cual no obtendriamos resultado, y puede dañar el codigo. 
+
+Operadores Logicos. 
+Estos operadores se encuentran en funciones primeramente acompañados de un if.Luego dentro de parentesis se colocan los condicionales de validación
+&& ( "Y" - AND )
+Se brinda dentro de una función dos o mas validaciones las cuales deben ser todas verdaderas para obtener "True", en caso de una o mas ser negativas devolvera "False"
+
+|| ( "O" - Or)
+En una función se brindan dos o mas validaciones, mientras alguna de estas sea verdadera, es suficiente para devolver "True", en caso de ser todas falsas, devolvera "False"
+
+! ("No" - Not)
+Este operador es utilizado para devolver el booleando contrario de lo resuelto. Ejemplo si se consulta "if (!(5>3))" devolvera False. 

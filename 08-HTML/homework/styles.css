@@ -1,13 +1,26 @@
+html{
+   background-image: url("https://www.cucinare.tv/wp-content/uploads/2020/09/Parrilla.jpg");
+   background-size: cover;
+}
 h1{
-   color:rgb(156, 118, 192);}
+   color:rgb(180, 129, 129);}
 img{
    width:400px}
 #thirdDiv{
+   margin-right:center;
    width:500px;
    height:600px;
-   background-color:rgb(92, 92, 133);
+   background-color:rgb(92, 32, 32);
    padding:50px;
    border: 1rem solid-blue;}
 #spanId{
+   margin-right:center;
    font-size:18px;
    border:50px;}
+.divClass{
+   margin-right:center;
+   margin:50px
+}
+#contenedorPadre{
+   width: 600px;
+  margin: 0 auto;}
