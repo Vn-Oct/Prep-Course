@@ -1,0 +1,7 @@
+Arrays
+Es una variable en la que se pueden almacenar datos dentro de sus matrices, la misma sera declarada luego de asignar un nombre, abriendo corchetes, y declarando cada dato separado por comas.
+Se puede acceder a los datos listando los mismos; el primer dato sera enumerado inicialmente con el Nro 0
+Los datos almacenados podrán ser llamados indicando el nro de orden, o buscandolo a traves de un for acompañado de .length. 
+
+Si el array es acompañado de ".push", se podrá agregar un dato a la matriz (Añadido al final). ".unshift" realiza la misma acción pero agregando el dato al inicio de la matriz, en el orden 0
+En cambio ".pop" eliminará el ultimo dato de la matriz. ".shift" realizara la misma acción pero eliminando el primer dato ingresado a la matriz.

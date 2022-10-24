@@ -1,0 +1,29 @@
+Objetos.
+Los onjetos son un contenedor de datos, el cual tambien es identificado como KeyValue.
+Este hace referencia a una clave con un valor asignado. 
+Lo que realiza un Objeto, es guardar datos con referencias especificas. Ejemplos los datos de usuarios, integrando datos personales.
+Estos sirven para tener campos especificos para completar.
+
+Los objetos se encuentran congormados por una variable, luego se determinara dentro de las llaves las claves y valores asignados, pueden ser varios y se encontraran separados uno de otro por comas entre si. 
+Para acceder o asignar valores nuevos a los Objetos, se pueden invocar o agregar, a traves del nombre de objeto un punto y el nombre de la clave. Ejemplo (nombreObjeto.nombreClave // nombreObjeto.nuevaClave), así mismo se podra acceder o añadir un objeto, informando primeramente la variable del objeto y declarando dentro de los corchetes la propiedad a llamar o completar.
+
+Las propiedades a eliminar, se podran borrar utilizando primeramente la palabra "delete" antes de la invocaciòn de la propiedad. Tambien se puede asignar a dicha propiedad el valor undefined.
+
+
+Metodos
+Los Metodos son funciones guardadas dentro de un objeto. 
+Estas pueden ser declaradas indicando un nombre, y luego los valores para dicha funcion.
+Para invocar al metodo unicamente sera necesario colocar el nombre del objeto seguido de un punto y el nombre del metodo. 
+
+Bucle "for... in"
+Es el bucle asignado para recorrer los objetos.
+Este sera compuesto por una nueva variable y la clave a utilizar. 
+
+This.
+Palabra clave, utilizada dentro de un objeto, para hacer referencia a la clave. Este metodo puede ser utilizado, para acompañar al metodo.
+
+Notación de puntos vs notación de corchetes
+Ambas notaciones son utilizadas dentro de los Objetos. 
+Notaciòn de puntos es intuitiva. Se utiliza el nombre de Clave seguido del punto y la propiedad.
+
+La notaciòn de Corchetes, de igual forma se utiliza la clave, pero seguido de corchetes y dentro de comillas la propiedad. En esta a su vez, puede ser llamada una varible dentro del usuario, que nos devuelva el valor de una propiedad. En estos casos no se coloca la variables entre comillas
